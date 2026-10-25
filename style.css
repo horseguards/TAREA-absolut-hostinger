@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css");
 * {
     margin: 0;
     padding: 0;
@@ -26,25 +27,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.search {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-button {
-    background-color: #fffefe;
-    color: #fff;
-    border: 1px solid #ccc;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
 .search-form {
     display: flex;
     justify-content: center;
     width: 680px;
     margin: 0 auto;
     align-items: center;
+    position: relative;
 }
 .search-form input {
     width: 100%;
@@ -54,6 +43,15 @@ button {
     border-radius: 9px;
     background-color: white;
 }
+.search-form__btn {
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    display: flex;
+    border: none;
+    background-color: transparent;
+}
+
 .explain { 
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
